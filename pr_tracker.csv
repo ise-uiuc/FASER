@@ -1,0 +1,20 @@
+Repo,PR Link,Status,File,Classname,Testname,OldBound,NewBound
+cleverhans,https://github.com/cleverhans-lab/cleverhans/pull/1225,Open,cleverhans/torch/tests/test_attacks.py,TestSPSA,test_adv_example_success_rate_linf,0.5,0.29
+deepchem,https://github.com/deepchem/deepchem/pull/2796,Merged,deepchem/models/tests/test_overfit.py,none,test_regression_overfit,0.1,0.007
+deepchem,https://github.com/deepchem/deepchem/pull/2823,Open,deepchem/models/tests/test_lcnn.py,none,test_lcnn_regression,0.6,0.4
+Gensim,https://github.com/RaRe-Technologies/gensim/pull/3278,Merged,gensim/test/test_word2vec.py,TestWord2VecModel,test_parallel,20,5
+gpytorch,https://github.com/cornellius-gp/gpytorch/pull/1866,Merged,test/examples/test_spectral_mixture_gp_regression.py,TestSpectralMixtureGPRegression,test_spectral_mixture_gp_mean_abs_error,0.2,0.02
+gpytorch,https://github.com/cornellius-gp/gpytorch/pull/1871,Merged,test/examples/test_batch_svgp_gp_regression.py,TestSVGPRegression,test_regression_error_shared_inducing_locations,0.1,0.01
+gpytorch,https://github.com/cornellius-gp/gpytorch/pull/1872,Merged,test/examples/test_kissgp_multiplicative_regression.py,TestKISSGPMultiplicativeRegression,test_kissgp_gp_mean_abs_error,0.15,0.04
+ParlAI,https://github.com/facebookresearch/ParlAI/pull/4261,Merged,tests/test_transformers.py,TestTransformerGenerator,test_xlm,1.3,1.02
+pymc,https://github.com/pymc-devs/pymc/pull/5271,Merged,pymc/tests/test_data_container.py,TestData,test_sample_after_set_data,0.1,0.015
+stellagraph,https://github.com/stellargraph/stellargraph/pull/2026,Open,tests/core/test_utils.py,none,test_rescale_laplacian,1,0.8
+ml-agents,https://github.com/Unity-Technologies/ml-agents/pull/5690,Open,ml-agents-envs/mlagents_envs/tests/test_rpc_utils.py,none,test_process_pixels_gray,0.01,0.002
+allennlp,https://github.com/allenai/allennlp/pull/5549,Merged,tests/modules/sampled_softmax_loss_test.py,TestSampledSoftmaxLoss,test_sampled_equals_unsampled_when_biased_against_non_sampled_positions,0.001,0.0003
+numpyro,https://github.com/pyro-ppl/numpyro/pull/1307,Merged,test/infer/test_mcmc.py,none,test_improper_normal,0.05,0.007
+umap,https://github.com/lmcinnes/umap/pull/832,Merged,umap/tests/test_umap_trustworthiness.py,none,test_umap_trustworthiness_fast_approx,0.75,0.8
+gpytorch,https://github.com/cornellius-gp/gpytorch/pull/1900,Merged,test/examples/test_batch_svgp_gp_regression.py,TestSVGPRegression,test_regression_error,0.1,0.012
+gpytorch,https://github.com/cornellius-gp/gpytorch/pull/1901,Merged,test/examples/test_unwhitened_svgp_regression.py,TestSVGPRegression,test_regression_error,0.1,0.014
+trax,https://github.com/google/trax/pull/1727,Open,trax/rl/advantages_test.py,AdvantagesTest,test_monte_carlo_bias_is_zero,0.1,0.04
+umap,https://github.com/lmcinnes/umap/pull/850,Merged,umap/tests/test_umap_trustworthiness.py,none,test_umap_trustworthiness_random_init,0.75,0.8
+umap,https://github.com/lmcinnes/umap/pull/851,Merged,umap/tests/test_umap_trustworthiness.py,none,test_umap_sparse_trustworthiness,0.85,0.88

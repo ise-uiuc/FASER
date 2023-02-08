@@ -1,0 +1,55 @@
+*.py[cod]
+examples/db.sqlite3
+venv
+.venv
+table.css.map
+.idea
+.vscode
+.cache
+.DS_Store
+.pytest_cache
+testreport.xml
+test_fs/
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+sdist
+develop-eggs
+.installed.cfg
+.eggs
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+testreport.xml
+htmlcov
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Complexity
+output/*.html
+output/*/index.html
+
+# Sphinx
+docs/_build
+docs/tri*.rst
+
+# tests
+results/
